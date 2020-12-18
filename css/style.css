@@ -866,6 +866,8 @@ table span {
 
 .teacher__inside__text h2 {
     font-size: 36px;
+    margin-left: 0;
+    margin-bottom: 10px;
 }
 
 /* Path*/
@@ -878,6 +880,7 @@ table span {
 
 .path__top h2 {
     min-width: auto;
+    font-size: 48px;
 }
 
 .path__inside {
@@ -889,11 +892,17 @@ table span {
 
 .path__containers {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .path__containers h3 {
     font-size: 36px;
 }
+
+.path__containers p {
+    font-size: 15px;
+}
+
 .bigCircles {
     display: none;
 }
@@ -960,6 +969,7 @@ top: 35px;
 
 .information__singleContainer_h6Mobile {
     display: block;
+    font-size: 24px;
 }
 
 .information__singleContainer>div {
