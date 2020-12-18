@@ -815,6 +815,10 @@ table span {
     margin: 0 auto;
 }
 
+.line-tale {
+    display: none;
+}
+
 /* Active Adventure */
 .active-adventure {
     min-width: 329px;
@@ -946,6 +950,7 @@ top: 35px;
 }
 
 .information__singleContainer img {
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -955,6 +960,14 @@ top: 35px;
 
 .information__singleContainer_h6Mobile {
     display: block;
+}
+
+.information__singleContainer>div {
+    width: 100%;
+}
+
+.information__singleContainer p {
+    font-size: 15px;
 }
 
 /* Projects */
@@ -971,6 +984,7 @@ top: 35px;
 
 .projects__carousel {
     width: 90%;
+    height: 200px;
 }
 
 /* Footer */
