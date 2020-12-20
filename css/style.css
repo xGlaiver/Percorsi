@@ -399,12 +399,14 @@ table {
 }
 
 
-footer td, footer td>h6, footer table span {
-    padding: 5px 5px 5px 1px;
+td, td>h6, table span {
     color: #4003CA;
+    font-weight: 400;
 }
 
-table span {
+
+td>h6, table span {
+    padding: 5px 5px 5px 1px;
     font-weight: 700;
 }
 
