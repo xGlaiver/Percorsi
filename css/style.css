@@ -400,7 +400,7 @@ table {
 
 
 footer td, footer td>h6, footer table span {
-    padding: 5px;
+    padding: 5px 5px 5px 1px;
     color: #4003CA;
 }
 
